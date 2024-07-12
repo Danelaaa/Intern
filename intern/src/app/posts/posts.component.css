@@ -1,0 +1,178 @@
+.posts {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  font-family: "ALK Sanet", sans-serif;
+}
+.s{
+  width: 90%;
+  height: auto;
+  display: grid;
+  gap:20px;
+    grid-template-columns: auto auto auto;
+  
+}
+.post-card{
+  border-radius: 5px;
+}
+.post-card p{
+  margin-top: 20px;
+  font-family: "ALK Sanet", sans-serif;
+  height: 55px;
+}
+.post-card button{
+  width: 70px;
+    height: 25px;
+    background-color: white;
+    border: solid black 1px;
+    color: black;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.post-details-popup{
+  width: 40%;
+  height: auto;
+  
+  background-color: rgb(190, 182, 182);
+  color: black;
+  font-family: "ALK Sanet", sans-serif;
+border-radius: 5px;
+border: solid rgb(148, 148, 148) 1px;
+}
+.post-details-popup h3{
+  font-size: 17px;
+ 
+}
+.post-details-popup p{
+  font-size: 15px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-family: "ALK Sanet", sans-serif;
+}
+.post-details-popup button{
+    font-weight: bolder;
+    color: rgb(52, 22, 70);
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    right: 0;
+}
+.b{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+  
+@media only screen and (max-width: 1100px) {
+  .post-card button{
+    margin-top: 25px;
+  }
+}
+@media only screen and (max-width: 810px) {
+  .post-card {
+    font-size: 15px;
+  }
+  .post-card button{
+    margin-top: 30px;
+  }
+  .post-details-popup{
+    width: 50%;
+    font-size: 14px;
+  }
+  .post-details-popup p{
+    
+    font-size: 14px;
+  }
+  .post-details-popup h3{
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .post-card {
+    font-size: 14px;
+  }
+  .post-card button{
+    margin-top: 35px;
+  }
+  .s{
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .post-card {
+    font-size: 12px;
+  }
+  .post-card button{
+    width: 50px;
+      height: 20px;
+      font-size: 12px;
+      margin-top: 20px;
+  }
+  .s{
+    width: 90%;
+    height: auto;
+    display: grid;
+    gap:20px;
+      grid-template-columns: auto auto;
+    
+  }
+  .post-details-popup{
+    width: 55%;
+    font-size: 14px;
+  }
+  .post-details-popup p{
+    
+    font-size: 13px;
+  }
+  .post-details-popup h3{
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .post-card {
+    font-size: 12px;
+  }
+  .post-card button{
+    width: 50px;
+      height: 20px;
+      font-size: 11px;
+      margin-top: 15px;
+  }
+  .post-card p{
+    margin-top: 5px;
+  }
+  .post-details-popup{
+    width: 65%;
+    font-size: 14px;
+  }
+  .post-details-popup p{
+    
+    font-size: 13px;
+  }
+  .post-details-popup h3{
+    font-size: 14px;
+  }
+  .post-details-popup button{
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .post-card {
+    font-size: 11px;
+  }
+  .post-card button{
+    width: 45px;
+      height: 20px;
+      font-size: 10px;
+      margin-top: -5px;
+  }
+  .post-card p{
+    margin-top: 5px;
+  }
+  
+}

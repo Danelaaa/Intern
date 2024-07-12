@@ -1,0 +1,23 @@
+<div class="posts">
+  <div class="s">
+    <div *ngFor="let post of posts" class="post-card">
+      <h3>{{ getUser(post.userId).name }}</h3>
+      <p>{{ post.title }}</p>
+      <button (click)="viewDetails(post)">Details</button>
+    </div>
+  </div>
+  
+
+  <div *ngIf="selectedPost" class="post-details-popup">
+    <div class="b">
+      <button (click)="closeDetails()">X</button>
+    </div>
+    
+    <div>
+      <h3>{{ selectedPost.title }}</h3>
+      <p>{{ selectedPost.body }}</p>
+    </div>
+    
+    
+  </div>
+</div>

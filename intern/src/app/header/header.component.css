@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+.main{
+    width: 100%;
+    font-family: "ALK Sanet", sans-serif;
+    height: auto;
+    
+}
+.main_top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+.top_left a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.top_left{
+    width: 25%;
+    height: 80px;
+    text-align: left;
+    display: flex;
+    
+    padding-left: 5%;
+    align-items: center;
+}
+.top_right{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    text-align: end;
+    align-items: center;
+    justify-content: end;
+    margin-left: -7%;
+}
+.top_right h4{
+    margin-left: -5%;
+}
+@media only screen and (max-width: 453px) {
+    .top_left h2{
+        font-size: 20px;
+    }
+    .top_right h4{
+        font-size: 16px;
+    }
+  }
